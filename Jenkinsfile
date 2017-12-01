@@ -3,8 +3,8 @@ node("392641ad9392-3acb3aef") {
     properties([
          parameters([
            string(
-             defaultValue: false,
-             description: 'isFoo should be false',
+             defaultValue: "componentB",
+             description: "list of components",
              name: 'componentsToUpdate'
            )
          ])
