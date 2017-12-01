@@ -1,5 +1,5 @@
 #!groovy
-node {
+node("392641ad9392-3acb3aef") {
     properties([
          parameters([
            string(
