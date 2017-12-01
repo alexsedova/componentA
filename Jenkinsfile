@@ -14,6 +14,6 @@ node("392641ad9392-3acb3aef") {
         println "Branch name is: " + env.BRANCH_NAME
     }
     stage("check parameters") {
-        println "Passed parameters: " + params.name
+        println "Passed parameters: " + params.componentsToUpdate
     }
 }
