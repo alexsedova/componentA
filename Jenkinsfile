@@ -16,4 +16,8 @@ node("392641ad9392-3acb3aef") {
     stage("check parameters") {
         println "Passed parameters: " + params.componentsToUpdate
     }
+    stage("set new version to env") {
+        env.UPDATED_COMPONENTS = "componentA:1.0.0"
+        println "env: " + env.UPDATED_COMPONENTS
+    }
 }
